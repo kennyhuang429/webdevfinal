@@ -1,0 +1,120 @@
+@font-face 
+{
+    font-family: "Oswald";
+    src: url("css/fonts/Oswald-Light.ttf");
+    src:
+    url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg");
+}    
+body 
+{
+    font-family: "Oswald", Arial, sans-serif;;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container 
+{
+    overflow: hidden;
+}
+
+#mainNav 
+{
+    position: fixed;
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    background:red;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#mainNav ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li 
+{
+    display: inline;
+    padding: 5px 10px;
+  }
+#mainNav a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#mainNav li:hover 
+{
+    background:white;
+    color:black;
+}
+#mainHeader 
+{
+    color: white;
+    text-align: center;
+}
+#jumboRed
+{
+    background-image: url('../images/solid_red.png');
+    background-position: center center;
+    min-height: 320px;
+    text-align: center;
+    color: white;
+}
+#jumboRed h1 
+{
+    color: white;
+    font-size: 75px;
+    padding-top: 30px;
+    line-height: 0.25em;
+    text-align: center;
+}
+#jumboRed h2
+{
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    line-height: 0.25em;
+    text-align: center;
+}
+#contact
+{
+    padding: 14px 28px;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    position: center;
+}
+#headers
+{
+    margin:20px 50px;
+    font-size: 40px;
+}
+#text
+{
+    margin:0px 50px;
+    font-size: 18px;
+}
+.centeredImage
+{
+    max-height: 100px;
+    text-align: center;
+}
+#githubimg
+{
+    max-height: 100px;
+}
+.centeredText
+{
+    text-align: center;
+    font-size: 20px;
+}
