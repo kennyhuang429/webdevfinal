@@ -94,12 +94,12 @@ body
     cursor: pointer;
     position: center;
 }
-#headers
+#mainHeaders
 {
     margin:20px 50px;
     font-size: 40px;
 }
-#text
+#mainText
 {
     margin:0px 50px;
     font-size: 18px;
@@ -117,4 +117,9 @@ body
 {
     text-align: center;
     font-size: 20px;
+}
+#mainBullets
+{
+    margin:0px 50px;
+    font-size: 18px;
 }
