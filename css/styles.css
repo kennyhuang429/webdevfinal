@@ -6,6 +6,10 @@
     url("css/fonts/Harabara.woff") format("woff"),
     url("css/fonts/Harabara.otf") format("opentype"),
     url("css/fonts/Harabara.svg#filename") format("svg");
+}
+html
+{
+    scroll-behavior: smooth;
 }    
 body 
 {
@@ -18,7 +22,15 @@ body
 {
     overflow: hidden;
 }
-
+.buttonCenter
+{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 #mainNav 
 {
     position: fixed;
@@ -40,10 +52,10 @@ body
 {
     display: inline;
     padding: 5px 10px;
-  }
+}
 #mainNav a 
 {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 25px;
 }
@@ -61,9 +73,10 @@ body
 {
     background-image: url('../images/solid_red.png');
     background-position: center center;
-    min-height: 320px;
+    min-height: 330px;
     text-align: center;
     color: white;
+     border-bottom: 3px solid black;
 }
 #jumboRed h1 
 {
@@ -78,6 +91,34 @@ body
     color: white;
     font-size: 40px;
     padding-top: 20px;
+    line-height: 0.25em;
+    text-align: center;
+}
+#miniRed
+{
+    background-image: url('../images/solid_red.png');
+    background-position: center center;
+    max-height: 620px;
+    text-align: center;
+    color: white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#miniRed h1 
+{
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 0.25em;
+    text-align: center;
+}
+#miniRed p
+{
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 0.25em;
     text-align: center;
 }
@@ -122,4 +163,20 @@ body
 {
     margin:0px 50px;
     font-size: 18px;
+}
+.centerPrompt
+{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -25px;
+}
+.centeredIcon
+{
+    max-height: 20px;
+    text-align: center;
+}
+#email
+{
+    max-height:50px;
+    margin-top:-15px;
 }
