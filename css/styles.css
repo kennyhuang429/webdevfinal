@@ -1,4 +1,4 @@
-@font-face 
+/* @font-face 
 {
     font-family: "Oswald";
     src: url("css/fonts/Oswald-Light.ttf");
@@ -6,7 +6,7 @@
     url("css/fonts/Harabara.woff") format("woff"),
     url("css/fonts/Harabara.otf") format("opentype"),
     url("css/fonts/Harabara.svg#filename") format("svg");
-}
+} */
 html
 {
     scroll-behavior: smooth;
@@ -21,6 +21,7 @@ body
 .container 
 {
     overflow: hidden;
+    font-family: 'Oswald', sans-serif;
 }
 .buttonCenter
 {
@@ -98,7 +99,7 @@ body
 {
     background-image: url('../images/solid_red.png');
     background-position: center center;
-    max-height: 620px;
+    max-height: 690px;
     text-align: center;
     color: white;
     border-top: 3px solid black;
@@ -108,7 +109,7 @@ body
 {
     color: white;
     font-size: 40px;
-    padding-top: 10px;
+    padding-top: 70px;
     padding-bottom: 10px;
     line-height: 0.25em;
     text-align: center;
